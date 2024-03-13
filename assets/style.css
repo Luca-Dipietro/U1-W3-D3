@@ -59,6 +59,7 @@ ul li {
   margin-left: 1em;
   margin-block: 1.5em;
   text-align: left;
+  font-size: 1.5em;
 }
 
 .checked {
@@ -69,4 +70,7 @@ ul li {
 li button {
   float: right;
   margin-right: 1em;
+  border-radius: 20%;
+  width: 2em;
+  height: 2em;
 }
