@@ -5,12 +5,12 @@ const addTask = function () {
   const inputText = inputBox.value;
   if (inputText !== "") {
     let newLi = document.createElement("li");
-    newLi.textContent = inputText;
+    newLi.innerText = inputText;
     newLi.addEventListener("click", function () {
       newLi.classList.toggle("checked");
     });
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "X";
+    deleteBtn.innerText = "X";
     deleteBtn.addEventListener("click", function () {
       listContainer.removeChild(newLi);
     });
