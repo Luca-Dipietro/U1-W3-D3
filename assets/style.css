@@ -5,15 +5,18 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(/assets/img/sfondo-lavagna.jpeg);
+  background-size: cover;
 }
 
 h1 {
-  background-color: orange;
+  background-color: white;
   padding: 1rem;
   font-weight: 700;
   text-align: center;
-  box-shadow: 0 3px 3px black;
+  margin-inline: 5em;
+  margin-block: 1em;
 }
 
 h2 {
@@ -34,6 +37,7 @@ h3 {
   width: 50%;
   margin-inline: auto;
   border: 1px solid black;
+  background-color: white;
 }
 
 .start-container {
