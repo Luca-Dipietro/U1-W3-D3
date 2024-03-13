@@ -24,6 +24,7 @@ h3 {
   padding: 0.5em;
   background-color: lightgrey;
   box-shadow: 5px -5px 0px 0px darkgrey;
+  margin-block: 1em;
 }
 
 .container {
@@ -40,7 +41,7 @@ h3 {
   box-shadow: 5px -5px 0px 0px lightgrey;
 }
 
-#new-task {
+#input-box {
   padding: 0.5em;
   margin-block: 1em;
 }
@@ -51,11 +52,17 @@ h3 {
 
 ul li {
   list-style: none;
-  margin-left: 0.5em;
-  margin-block: 1em;
+  margin-left: 1em;
+  margin-block: 1.5em;
   text-align: left;
 }
 
-ul li span {
-  margin-left: 20em;
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+li button {
+  float: right;
+  margin-right: 1em;
 }

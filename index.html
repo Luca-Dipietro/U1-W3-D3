@@ -11,14 +11,18 @@
     <div class="container">
       <div class="start-container">
         <h2>Cosa dobbiamo fare oggi?</h2>
-        <input id="new-task" type="text" placeholder="Add new task" />
-        <button onclick="addNewTask()">Add Task</button>
+        <input id="input-box" type="text" placeholder="Add new task" />
+        <button onclick="addTask()">Add Task</button>
       </div>
+      <h3>Task</h3>
       <div class="list-container">
-        <h3>Task</h3>
-        <ul id="task-list"></ul>
+        <ul id="task-list">
+          <!-- <li class="checked">Task1</li>
+          <li>Task2</li>
+          <li>Task3</li> -->
+        </ul>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
