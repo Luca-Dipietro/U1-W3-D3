@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  background-color: orange;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 3px 3px black;
+}
+
+h2 {
+  padding-top: 0.5em;
+}
+
+h3 {
+  padding: 0.5em;
+  background-color: lightgrey;
+  box-shadow: 5px -5px 0px 0px darkgrey;
+}
+
+.container {
+  margin-block: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+  border: 1px solid black;
+}
+
+.start-container {
+  background-color: #b2aaaa;
+  box-shadow: 5px -5px 0px 0px lightgrey;
+}
+
+#new-task {
+  padding: 0.5em;
+  margin-block: 1em;
+}
+
+.list-container {
+  margin-block: 1em;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 0.5em;
+  margin-block: 1em;
+  text-align: left;
+}
+
+ul li span {
+  margin-left: 20em;
+}
